@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/lettrine
+# catalog-date 2008-04-24 10:20:25 +0200
+# catalog-license lppl
+# catalog-version 1.6
 Name:		texlive-lettrine
 Version:	1.6
 Release:	1
@@ -58,6 +64,7 @@ shape (such as "A" and "V").
 #- source
 %doc %{_texmfdistdir}/source/latex/lettrine/lettrine.dtx
 %doc %{_texmfdistdir}/source/latex/lettrine/lettrine.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -68,3 +75,5 @@ shape (such as "A" and "V").
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
