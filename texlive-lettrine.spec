@@ -1,12 +1,12 @@
-# revision 15878
+# revision 27185
 # category Package
 # catalog-ctan /macros/latex/contrib/lettrine
-# catalog-date 2008-04-24 10:20:25 +0200
+# catalog-date 2012-07-20 19:39:58 +0200
 # catalog-license lppl
-# catalog-version 1.6
+# catalog-version 1.63
 Name:		texlive-lettrine
-Version:	1.6
-Release:	2
+Version:	1.63
+Release:	1
 Summary:	Typeset dropped capitals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lettrine
