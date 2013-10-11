@@ -1,11 +1,11 @@
-# revision 27185
+# revision 29391
 # category Package
 # catalog-ctan /macros/latex/contrib/lettrine
-# catalog-date 2012-07-20 19:39:58 +0200
+# catalog-date 2013-03-14 17:29:15 +0100
 # catalog-license lppl
-# catalog-version 1.63
+# catalog-version 1.64
 Name:		texlive-lettrine
-Version:	1.63
+Version:	1.64
 Release:	1
 Summary:	Typeset dropped capitals
 Group:		Publishing
@@ -64,21 +64,3 @@ shape (such as "A" and "V").
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.63-1
-+ Revision: 812565
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.6-2
-+ Revision: 753275
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.6-1
-+ Revision: 718846
-- texlive-lettrine
-- texlive-lettrine
-- texlive-lettrine
-- texlive-lettrine
-
