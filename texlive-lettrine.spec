@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 1.64
 Name:		texlive-lettrine
-Version:	1.64
-Release:	9
+Version:	1.9
+Release:	1
 Summary:	Typeset dropped capitals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lettrine
