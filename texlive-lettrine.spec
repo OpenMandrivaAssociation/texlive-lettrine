@@ -1,9 +1,3 @@
-# revision 29391
-# category Package
-# catalog-ctan /macros/latex/contrib/lettrine
-# catalog-date 2013-03-14 17:29:15 +0100
-# catalog-license lppl
-# catalog-version 1.64
 Name:		texlive-lettrine
 Version:	1.9
 Release:	1
@@ -36,24 +30,10 @@ shape (such as "A" and "V").
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/lettrine/lettrine.cfg
-%{_texmfdistdir}/tex/latex/lettrine/lettrine.sty
-%{_texmfdistdir}/tex/latex/lettrine/optfile.cfl
-%{_texmfdistdir}/tex/latex/lettrine/pacl.cfl
-%{_texmfdistdir}/tex/latex/lettrine/padl.cfl
-%{_texmfdistdir}/tex/latex/lettrine/pzc2.cfl
-%{_texmfdistdir}/tex/latex/lettrine/pzc3.cfl
-%doc %{_texmfdistdir}/doc/latex/lettrine/README
-%doc %{_texmfdistdir}/doc/latex/lettrine/W.eps
-%doc %{_texmfdistdir}/doc/latex/lettrine/W.pdf
-%doc %{_texmfdistdir}/doc/latex/lettrine/demo-de.pdf
-%doc %{_texmfdistdir}/doc/latex/lettrine/demo-de.tex
-%doc %{_texmfdistdir}/doc/latex/lettrine/demo.pdf
-%doc %{_texmfdistdir}/doc/latex/lettrine/demo.tex
-%doc %{_texmfdistdir}/doc/latex/lettrine/lettrine.pdf
+%{_texmfdistdir}/tex/latex/lettrine
+%doc %{_texmfdistdir}/doc/latex/lettrine
 #- source
-%doc %{_texmfdistdir}/source/latex/lettrine/lettrine.dtx
-%doc %{_texmfdistdir}/source/latex/lettrine/lettrine.ins
+%doc %{_texmfdistdir}/source/latex/lettrine
 
 #-----------------------------------------------------------------------
 %prep
