@@ -1,6 +1,6 @@
 Name:		texlive-lettrine
-Version:	2.01
-Release:	2
+Version:	2.22
+Release:	1
 Summary:	Typeset dropped capitals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lettrine
