@@ -1,13 +1,13 @@
 Name:		texlive-lettrine
-Version:	2.22
+Version:	64511
 Release:	1
 Summary:	Typeset dropped capitals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lettrine
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lettrine.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lettrine.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lettrine.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lettrine.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lettrine.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lettrine.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,12 +21,12 @@ edge to follow the outline of capitals that have a regular
 shape (such as "A" and "V").
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -37,7 +37,8 @@ shape (such as "A" and "V").
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
