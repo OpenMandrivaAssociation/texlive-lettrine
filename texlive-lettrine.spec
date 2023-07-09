@@ -1,5 +1,5 @@
 Name:		texlive-lettrine
-Version:	66888
+Version:	67546
 Release:	1
 Summary:	Typeset dropped capitals
 Group:		Publishing
